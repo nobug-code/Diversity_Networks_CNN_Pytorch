@@ -11,6 +11,13 @@
 # Kernel function 이란 ? 
   원점을 중심으로 대칭이면서 적분값이 1인 non-negative 함수
   Gaussain, Epanechnioov, uniform 함수 등이 대표적이다.
+
+# Gaussain kernel ?
+  주어진 데이터를 고차원 특징 공간으로 사상해주는 것
+  가우시안 커널을 사용함으로써 무한 공간의 차원으로 맵핑시킬 수 있다. 즉, 비교가 가능해 진다. 
+  지금 여기서는 하나의 레이어를 기준으로 모든 레이어를 비교 하는 것.
+  가우시안 커널로 고차원으로 맵핑시킨다고 생각을 하면 된다. 
+  
   
 출저 : https://darkpgmr.tistory.com/147
   
